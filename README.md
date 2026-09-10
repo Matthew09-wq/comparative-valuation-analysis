@@ -72,7 +72,32 @@ Proprietary raw financial datasets are not included in this repository.
 ## Skills Demonstrated
 
 **Comparative Valuation | Financial Statement Analysis | Equity Valuation | Free Cash Flow Analysis | Financial Modelling | Excel | Python | Data Visualisation**
+## Repository Contents
 
+- `What_Is_The_Market_Paying_For_Case_Study.pdf`  
+  Full 5-page comparative valuation case study.
+
+- `src/comparative_valuation.py`  
+  Public-safe Python script that reproduces the core valuation calculations and QA checks used in the analysis.
+
+## Python Valuation Engine
+
+The Python script calculates:
+
+- P/E
+- EV / Revenue
+- EV / EBIT
+- P / FCF
+- Free cash flow yield
+
+It also runs QA checks against the expected case-study outputs.
+
+The script uses only public case-study inputs and does not rely on proprietary raw financial datasets.
+
+Run locally with:
+
+```bash
+python src/comparative_valuation.py
 ## Author
 
 **Matthew Walker**
